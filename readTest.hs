@@ -10,15 +10,17 @@ import qualified Data.Set as S
 import qualified Data.ByteString.Char8 as BS
 
 
-(idMouse, idHuman, labelAny) = 
-    ( "    <owl:Class rdf:about=\"http://mouse.owl#"
-    , "    <owl:Class rdf:about=\"http://human.owl#"
-    , "        <rdfs:label rdf:datatype=\"http://www.w3.org/2001/XMLSchema#string\">")
+idMouse :: Text
+idMouse = "    <owl:Class rdf:about=\"http://mouse.owl#"
+idHuman :: Text
+idHuman = "    <owl:Class rdf:about=\"http://human.owl#"
+labelAny :: Text
+labelAny = "        <rdfs:label rdf:datatype=\"http://www.w3.org/2001/XMLSchema#string\">"
 
 
--- .55 -> .8253
+-- .55 -> .8255
 quality :: Float
-quality = 0.50
+quality = 0.56
 
 
 ngrams :: Int -> Text -> Set Text
@@ -64,19 +66,6 @@ parse idPre labelPre = M.fromList . pairUp . ids
     pairUp (i : l : xs) = (normalize l, i) : pairUp xs
     space t = T.replace t " "
     normalize = space "-" . space " or " . space " and " . space "/" . space "_" . T.toLower
-
-
--- bestMatches :: Map Text Text -> Map Text Text -> [(Text, Text)]
--- bestMatches one two = bestMatches' (M.toList one) two
---   where
---     bestMatches' [] _ = []
---     bestMatches' ((label, ident) : xs) other =
---         if p > quality
---             then (ident, bestI) : bestMatches' xs (M.delete bestL other)
---             else bestMatches' xs other
---       where
---         labelMatch = M.mapKeys (\l -> (sim label l, l)) other
---         ((p, bestL), bestI) = M.findMax labelMatch
 
 
 printMatches :: [(Text, Text)] -> IO ()
