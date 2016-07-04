@@ -1,8 +1,8 @@
 #!/bin/bash
+echo "Running ..."
 TRIVIAL=946
 
-# runghc readTest.hs | sort > out
-time ./readTest | sort > out
+time ./match mouse.owl human.owl +RTS -N | sort > out
 TP=$(comm -12 out matches | wc -l)
 FP=$(comm -23 out matches | wc -l)
 FN=$(comm -13 out matches | wc -l)
@@ -17,3 +17,5 @@ echo "False negatives: "$FN
 echo "Precision: "$PRECISION
 echo "Recall: "$RECALL
 echo "F-Score: "$FSCORE
+
+rm out
