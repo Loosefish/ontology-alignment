@@ -68,9 +68,9 @@ mapPairs f xs ys = [f x y | x <- xs, y <- ys]
 
 -- Similarity of two sets
 sim :: Ord a => Set a -> Set a -> Float
-sim xs ys = size uni / size inter
+sim xs ys = size inter / size uni
   where
-    (uni, inter) = unionIntersection xs ys
+    (inter, uni) = unionIntersection xs ys
     size = fromIntegral . S.size
 
 
