@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-module Match where
+module Match (findMatches) where
 
 import Control.Parallel.Strategies
 import Data.Array.IArray ((!))
@@ -14,35 +14,40 @@ import Data.Text (Text)
 import qualified Data.Text as T
 
 
+type Label = Text
+type Id = Text
+type Annotations = Map Label (Id, [Label])
+
+
 chunked :: NFData a => Strategy [a]
 chunked = parListChunk 16000 rdeepseq
 
 
-findMatches :: Map Text Text -> Map Text Text -> [(Text, Text)]
-findMatches one two = M.elems exact ++ best
+findMatches :: Float -> Annotations -> Annotations -> [(Id, Id)]
+findMatches cutoff one two = M.elems exact ++ best
   where
-    exact = M.intersectionWith (\x y -> (x, y)) one two
+    exact = M.intersectionWith (\x y -> (fst x, fst y)) one two
     one' = M.difference one exact
     two' = M.difference two exact
-    best = triGramMatch 0.536 one' two'  -- .84685340123681338667
+    best = triGramMatch cutoff one' two'  -- .84685340123681338667
 
 
 -- Use 3-gram similarity to find matches
-triGramMatch :: Float -> Map Text Text -> Map Text Text -> [(Text, Text)]
+triGramMatch :: Float -> Annotations -> Annotations -> [(Id, Id)]
 triGramMatch quality one two =
     map translate . greedyMatch . cutoff . matchList . variances $ similarities one two
   where
     cutoff = takeWhile (\(q, _, _) -> q > quality)
-    translate (i1, i2) = (snd $ M.elemAt i1 one, snd $ M.elemAt i2 two)
+    translate (i1, i2) = (fst . snd $ M.elemAt i1 one, fst . snd $ M.elemAt i2 two)
 
 
 -- Construct a matrix with similarity values between maps
-similarities :: Map Text Text -> Map Text Text -> UArray (Int, Int) Float
+similarities :: Annotations -> Annotations -> UArray (Int, Int) Float
 similarities one two = A.listArray ((0, 0), (M.size one - 1, M.size two - 1)) elements
   where
-    elements = [sim l1 l2 | l1 <- toTris one, l2 <- toTris two] `using` chunked
-    toTris = map (nGrams 3 . pad) . M.keys
-    pad text = T.append "  " $ T.append text "  "
+    elements = mapPairs bagSim (M.toAscList one) (M.toAscList two) `using` chunked
+    bagSim x y = maximum $ mapPairs sim (toTris x) (toTris y)
+    toTris (label, (_, synonyms)) = map (nGrams 3) (label : synonyms)
 
 
 -- Set of n-grams for a word
@@ -54,6 +59,11 @@ nGrams n word = S.fromList $ nGrams' word
     nGrams' text
         | T.length text >= n = T.take n text : nGrams' (T.drop 1 text)
         | otherwise = []
+
+
+-- Apply a function to all pairs of elements from two lists
+mapPairs :: (a -> b -> c) -> [a] -> [b] -> [c]
+mapPairs f xs ys = [f x y | x <- xs, y <- ys]
 
 
 -- Similarity of two sets
@@ -76,7 +86,7 @@ unionIntersection one two = unionIntersection' [] [] two (S.toList one)
         | otherwise = unionIntersection' is (x : un) s xs
 
 
--- Calculate variance for each entry
+-- Calculate variances for each entry
 variances :: UArray (Int, Int) Float -> UArray (Int, Int) Float
 variances matrix = A.listArray (A.bounds matrix) $ map freq $ A.assocs matrix
   where
