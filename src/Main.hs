@@ -2,6 +2,7 @@
 module Main (main) where
 
 import qualified Data.ByteString.Char8 as BS
+import Data.List
 import Data.Map.Strict (Map)
 import Data.Maybe (mapMaybe)
 import qualified Data.Map.Strict as M
@@ -32,7 +33,9 @@ parseFile :: String -> IO (Map Text (Text, [Text]))
 parseFile inFile = M.fromList . mapMaybe parseLine . T.lines . decodeUtf8 <$> BS.readFile inFile
   where
     parseLine l = case T.splitOn "|" l of
-        key : label : syns -> Just (label, (key, syns))
+        key : labels -> Just (label, (key, syns))
+          where
+            label : syns = nub labels
         _ -> Nothing
 
 

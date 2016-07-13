@@ -20,8 +20,16 @@ def main(label_file, synonym_file):
             print("{}|{}".format(oid, label))
 
 
+to_remove = ["_", "-", ".", ",", " and ", " or ", " of ", "/", " to ", " for ", " at ", " the "]
+
+
 def norm(text):
-    return "  {}  ".format(text.lower().strip().replace(" and ", " ").replace(" or ", " ").replace("/", " ").replace(".", " ").replace(",", " ").replace("-", " ").replace("_", " "))
+    text = text.lower()
+    for r in to_remove:
+        text = text.replace(r, " ")
+        text = text.replace("  ", " ")
+    text = text.strip()
+    return "  {}  ".format(text)
 
 
 if __name__ == "__main__":

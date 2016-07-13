@@ -124,7 +124,7 @@ MA_0000123|  pancreas tail
 MA_0000124|  pancreatic duct  
 MA_0000125|  dorsal pancreatic duct  
 MA_0000126|  ventral pancreatic duct  
-MA_0000127|  pancreatic islet  |  islet of langerhans  
+MA_0000127|  pancreatic islet  |  islet langerhans  
 MA_0000128|  parathyroid gland  
 MA_0000129|  thyroid gland  
 MA_0000130|  thyroglossal duct  
@@ -134,7 +134,7 @@ MA_0000133|  cerebral hemisphere  |  cerebrum
 MA_0000134|  bone marrow  
 MA_0000135|  bronchus associated lymphoid tissue  |  balt  
 MA_0000136|  gut associated lymphoid tissue  |  galt  
-MA_0000137|  peyer's patch  
+MA_0000137|  peyer patch  
 MA_0000138|  lymphatic vessel  
 MA_0000139|  lymph node  
 MA_0000140|  mucosa associated lymphoid tissue  |  malt  
@@ -188,7 +188,7 @@ MA_0000187|  neocortex region  |  cerebral cortex region
 MA_0000188|  corpus callosum  
 MA_0000189|  hippocampal formation  |  primal cortex  |  archipallium  
 MA_0000190|  dentate gyrus  
-MA_0000191|  hippocampus  |  ammon's horn  
+MA_0000191|  hippocampus  |  ammon horn  
 MA_0000192|  lateral ventricle  
 MA_0000193|  olfactory cortex  |  olfactory lobe  
 MA_0000194|  olfactory bulb  |  main olfactory bulb  
@@ -284,9 +284,9 @@ MA_0000283|  nasal capsule
 MA_0000284|  nasal cavity  
 MA_0000285|  nasal septum  
 MA_0000286|  nasal turbinate  
-MA_0000287|  olfactory gland  |  olfactory gland of bowman  
+MA_0000287|  olfactory gland  |  olfactory gland bowman  
 MA_0000288|  olfactory receptor nerve  
-MA_0000289|  vomeronasal organ  |  organ of jacobsen  
+MA_0000289|  vomeronasal organ  |  organ jacobsen  
 MA_0000290|  appendicular skeleton  
 MA_0000291|  girdle bone  
 MA_0000292|  pectoral girdle bone  
@@ -471,7 +471,7 @@ MA_0000471|  knee joint
 MA_0000472|  abdominal fat pad  
 MA_0000473|  subcutaneous adipose tissue  
 MA_0000474|  abdominal aorta  
-MA_0000475|  arch of aorta  |  aortic arch  
+MA_0000475|  arch aorta  |  aortic arch  
 MA_0000476|  dorsal aorta  
 MA_0000477|  common dorsal aorta  
 MA_0000478|  left dorsal aorta  
@@ -727,10 +727,10 @@ MA_0000727|  thyroid gland isthmus
 MA_0000728|  thyroid gland left lobe  
 MA_0000729|  thyroid gland right lobe  
 MA_0000730|  thyroid gland parenchyma  
-MA_0000731|  peyer's patch epithelium  
-MA_0000732|  peyer's patch follicle  
-MA_0000733|  peyer's patch dome  
-MA_0000734|  peyer's patch germinal center  
+MA_0000731|  peyer patch epithelium  
+MA_0000732|  peyer patch follicle  
+MA_0000733|  peyer patch dome  
+MA_0000734|  peyer patch germinal center  
 MA_0000735|  axillary lymph node  
 MA_0000736|  cervical lymph node  
 MA_0000737|  inguinal lymph node  
@@ -748,7 +748,7 @@ MA_0000748|  afferent lymphatic vessel
 MA_0000749|  efferent lymphatic vessel  
 MA_0000750|  lymphatic vessel endothelium  
 MA_0000751|  lymphatic vessel smooth muscle  
-MA_0000752|  oropharyngeal lymphoid tissue  |  waldeyer's ring  
+MA_0000752|  oropharyngeal lymphoid tissue  |  waldeyer ring  
 MA_0000753|  spleen capsule  
 MA_0000754|  spleen marginal sinus  
 MA_0000755|  spleen marginal zone  
@@ -768,7 +768,7 @@ MA_0000768|  thymus epithelium
 MA_0000769|  thymus subcapsular epithelium  
 MA_0000770|  thymus lobule  
 MA_0000771|  thymus medulla  
-MA_0000772|  hassall's corpuscle  
+MA_0000772|  hassall corpuscle  
 MA_0000773|  lingual tonsillar tissue  
 MA_0000774|  nasopharyngeal tonsil  
 MA_0000775|  palatine tonsil  
@@ -853,7 +853,7 @@ MA_0000853|  tuberomammillary nucleus
 MA_0000854|  pars anterior  |  pars glandularis  |  pars distalis  |  anterior lobe  
 MA_0000855|  pars intermedia  
 MA_0000856|  pars tuberalis  
-MA_0000857|  remnant of rathke's pouch  |  hypophyseal cleft  
+MA_0000857|  remnant rathke pouch  |  hypophyseal cleft  
 MA_0000858|  infundibulum  
 MA_0000859|  median eminence  
 MA_0000860|  pars posterior  |  posterior lobe  |  pars nervosa  |  neural lobe  
@@ -921,7 +921,7 @@ MA_0000921|  lower lip
 MA_0000922|  medial entorhinal cortex  
 MA_0000923|  presubiculum  
 MA_0000924|  septal cortex  |  septal nucleus  |  septal area  
-MA_0000925|  bed nucleus of stria terminalis  
+MA_0000925|  bed nucleus stria terminalis  
 MA_0000926|  anterior division  
 MA_0000927|  fusiform nucleus  
 MA_0000928|  magnocellular nucleus  
@@ -932,7 +932,7 @@ MA_0000932|  transverse nucleus
 MA_0000933|  lateral septal complex  
 MA_0000934|  medial septal complex  
 MA_0000935|  medial septal nucleus  
-MA_0000936|  nucleus of diagonal band  
+MA_0000936|  nucleus diagonal band  
 MA_0000937|  posterior septal complex  
 MA_0000938|  septofimbrial nucleus  
 MA_0000939|  septohippocampal nucleus  
@@ -973,7 +973,7 @@ MA_0000973|  olfactory bulb mitral cell layer
 MA_0000974|  olfactory bulb subependymal zone  
 MA_0000975|  olfactory tract  
 MA_0000976|  olfactory tubercle  
-MA_0000977|  islands of calleja  
+MA_0000977|  islands calleja  
 MA_0000978|  piriform cortex  |  piriform area  
 MA_0000979|  telencephalon meninges  
 MA_0000980|  telencephalon arachnoid matter  
@@ -1007,13 +1007,13 @@ MA_0001007|  cerebellum lobule x  |  nodulus
 MA_0001008|  lateral cerebellar nucleus  |  dentate nucleus  
 MA_0001009|  medial cerebellar nucleus  |  fastigial nucleus  
 MA_0001010|  abducens vi nucleus  
-MA_0001011|  barrington's nucleus  
+MA_0001011|  barrington nucleus  
 MA_0001012|  cochlear viii nucleus  
 MA_0001013|  dorsal tegmental nucleus  
 MA_0001014|  facial vii nucleus  |  facial vii motor nucleus  
 MA_0001016|  laterodorsal tegmental nucleus  
 MA_0001017|  locus coeruleus  
-MA_0001018|  nucleus of trapezoid body  
+MA_0001018|  nucleus trapezoid body  
 MA_0001019|  parabrachial nucleus  
 MA_0001020|  peduncular pontine nucleus  
 MA_0001021|  pontine nucleus  
@@ -1026,12 +1026,12 @@ MA_0001027|  superior salivatory nucleus
 MA_0001028|  trigeminal v nucleus  
 MA_0001029|  trigeminal v motor nucleus  
 MA_0001030|  trigeminal v sensory nucleus  
-MA_0001031|  ventral tegmental nucleus  |  nucleus of gudden  
+MA_0001031|  ventral tegmental nucleus  |  nucleus gudden  
 MA_0001032|  vestibular viii nucleus  
 MA_0001033|  accessory xi nucleus  
 MA_0001034|  area postrema  
 MA_0001035|  cuneate nucleus  
-MA_0001036|  dorsal motor nucleus of vagus x nerve  
+MA_0001036|  dorsal motor nucleus vagus x nerve  
 MA_0001037|  gigantocellular reticular nucleus  
 MA_0001038|  gracile nucleus  
 MA_0001039|  hypoglossal xii nucleus  
@@ -1065,9 +1065,9 @@ MA_0001066|  substantia nigra pars reticulata
 MA_0001067|  inferior colliculus  
 MA_0001068|  superior colliculus  
 MA_0001069|  interpeduncular nucleus  
-MA_0001070|  nucleus related to visual cortex  
+MA_0001070|  nucleus related visual cortex  
 MA_0001071|  edinger westphal nucleus  
-MA_0001072|  nucleus of darkschewitsch  
+MA_0001072|  nucleus darkschewitsch  
 MA_0001073|  oculomotor iii nucleus  
 MA_0001074|  parabigeminal nucleus  
 MA_0001075|  trochlear iv nucleus  
@@ -1116,7 +1116,7 @@ MA_0001117|  spinal cord central canal
 MA_0001118|  spinal cord central grey  
 MA_0001119|  spinal cord dorsal horn  
 MA_0001120|  spinal cord basal nucleus  
-MA_0001121|  spinal cord dorsal nucleus  |  clarke's nucleus  
+MA_0001121|  spinal cord dorsal nucleus  |  clarke nucleus  
 MA_0001122|  spinal cord marginal zone  
 MA_0001123|  spinal cord reticular nucleus  
 MA_0001124|  substantia gelatinosa  
@@ -1132,7 +1132,7 @@ MA_0001133|  spinal cord pia mater
 MA_0001134|  spinal cord ventral horn  
 MA_0001135|  white matter  
 MA_0001136|  ciliary ganglion  
-MA_0001137|  organ of zuckerkandl  |  paraganglia of zuckerkandl  |  para aortic body  
+MA_0001137|  organ zuckerkandl  |  paraganglia zuckerkandl  |  para aortic body  
 MA_0001138|  cardiac nerve plexus  
 MA_0001139|  celiac nerve plexus  |  coeliac nerve plexus  
 MA_0001140|  hypogastric nerve plexus  
@@ -1143,8 +1143,8 @@ MA_0001144|  enteric ganglion
 MA_0001145|  enteric nerve  
 MA_0001146|  cholinergic enteric nerve  
 MA_0001147|  intrinsic nerve plexus  
-MA_0001148|  myenteric nerve plexus  |  auerbach's plexus  
-MA_0001149|  submucous nerve plexus  |  meissner's plexus  |  henle's plexus  
+MA_0001148|  myenteric nerve plexus  |  auerbach plexus  
+MA_0001149|  submucous nerve plexus  |  meissner plexus  |  henle plexus  
 MA_0001150|  vagus x nerve trunk  
 MA_0001151|  left vagus x nerve trunk  |  anterior vagus x nerve trunk  
 MA_0001152|  right vagus x nerve trunk  |  posterior vagus x nerve trunk  
@@ -1188,17 +1188,17 @@ MA_0001189|  inner ear epithelium
 MA_0001190|  basilar membrane  
 MA_0001191|  limbus lamina spiralis  
 MA_0001192|  spiral ligament  
-MA_0001193|  spiral organ  |  organ of corti  
+MA_0001193|  spiral organ  |  organ corti  
 MA_0001194|  reticular lamina  |  reticular membrane  
 MA_0001195|  spiral sulcus  
 MA_0001196|  external spiral sulcus  
 MA_0001197|  internal spiral sulcus  
 MA_0001198|  stria vascularis  
 MA_0001199|  tectorial membrane  
-MA_0001200|  vestibular membrane  |  reissner's membrane  
-MA_0001201|  macula of saccule  |  saccular maculs  
+MA_0001200|  vestibular membrane  |  reissner membrane  
+MA_0001201|  macula saccule  |  saccular maculs  
 MA_0001202|  saccule epithelium  
-MA_0001203|  macula of utricle  |  utricular macula  
+MA_0001203|  macula utricle  |  utricular macula  
 MA_0001204|  utricle epithelium  
 MA_0001205|  scala tympani  
 MA_0001206|  scala vestibuli  
@@ -1301,7 +1301,7 @@ MA_0001304|  lens fiber
 MA_0001305|  choroid fissure  
 MA_0001306|  macula  
 MA_0001307|  fovea  
-MA_0001308|  retina photoreceptor layer  |  layer of rods cones  
+MA_0001308|  retina photoreceptor layer  |  layer rods cones  
 MA_0001309|  retina external limiting lamina  
 MA_0001310|  retina ganglion cell layer  
 MA_0001311|  retina inner nuclear layer  
@@ -1320,7 +1320,7 @@ MA_0001323|  internal naris
 MA_0001324|  nasal cavity epithelium  |  nasal mucosa  
 MA_0001325|  nasal cavity olfactory epithelium  
 MA_0001326|  nasal cavity respiratory epithelium  |  olfactory mucosa  
-MA_0001327|  septal olfactory organ  |  organ of masera  
+MA_0001327|  septal olfactory organ  |  organ masera  
 MA_0001328|  vomeronasal organ sensory epithelium  
 MA_0001329|  clavicle  
 MA_0001330|  scapula  
@@ -1340,7 +1340,7 @@ MA_0001343|  hamate  |  uncinate  |  unciform  |  hand distal carpal bone 4
 MA_0001344|  central carpal bone  |  centrale  
 MA_0001345|  falciform carpal bone  
 MA_0001346|  scapholunate  |  intermedioradial carpal bone  
-MA_0001347|  triquetral  |  ulnar carpal bone  |  triquetrum  |  triangular  |  cuneiform of hand  
+MA_0001347|  triquetral  |  ulnar carpal bone  |  triquetrum  |  triangular  |  cuneiform hand  
 MA_0001348|  calcaneum  |  fibulare  |  calcaneus  
 MA_0001349|  navicular  |  centrale  |  central tarsal bone  
 MA_0001350|  medial tibial tarsal bone  |  tibiale  
@@ -1369,26 +1369,26 @@ MA_0001372|  metatarsal bone digit 4
 MA_0001373|  metatarsal bone digit 5  
 MA_0001374|  patella  
 MA_0001375|  sesamoid bone  
-MA_0001376|  proximal sesamoid bone of foot  
-MA_0001377|  proximal sesamoid bone of hand  
-MA_0001378|  sesamoid bone of gastrocnemius  |  fabella  
+MA_0001376|  proximal sesamoid bone foot  
+MA_0001377|  proximal sesamoid bone hand  
+MA_0001378|  sesamoid bone gastrocnemius  |  fabella  
 MA_0001379|  ulnar sesamoid bone  
-MA_0001380|  distal phalanx of foot  
+MA_0001380|  distal phalanx foot  
 MA_0001381|  foot digit 1 phalanx  
 MA_0001382|  foot digit 2 phalanx  
 MA_0001383|  foot digit 3 phalanx  
 MA_0001384|  foot digit 4 phalanx  
 MA_0001385|  foot digit 5 phalanx  
-MA_0001386|  middle phalanx of foot  
-MA_0001387|  proximal phalanx of foot  
-MA_0001388|  distal phalanx of hand  
+MA_0001386|  middle phalanx foot  
+MA_0001387|  proximal phalanx foot  
+MA_0001388|  distal phalanx hand  
 MA_0001389|  hand digit 1 phalanx  
 MA_0001390|  hand digit 2 phalanx  
 MA_0001391|  hand digit 3 phalanx  
 MA_0001392|  hand digit 4 phalanx  
 MA_0001393|  hand digit 5 phalanx  
-MA_0001394|  middle phalanx of hand  
-MA_0001395|  proximal phalanx of hand  
+MA_0001394|  middle phalanx hand  
+MA_0001395|  proximal phalanx hand  
 MA_0001396|  costal arch  
 MA_0001397|  distal rib  
 MA_0001398|  false rib  
@@ -1497,16 +1497,16 @@ MA_0001501|  synchondrosis
 MA_0001502|  cranial synchondrosis  
 MA_0001503|  postcranial synchondrosis  
 MA_0001504|  symphysis  
-MA_0001505|  joint of girdle  
+MA_0001505|  joint girdle  
 MA_0001506|  sacroiliac joint  
 MA_0001507|  sternoclavicular joint  
-MA_0001508|  joint of rib  
+MA_0001508|  joint rib  
 MA_0001509|  costochondral joint  
 MA_0001510|  costovertebral joint  
 MA_0001511|  interchondral joint  
 MA_0001512|  sternocostal joint  
-MA_0001513|  joint of vertebral arch  
-MA_0001514|  joint of vertebral body  
+MA_0001513|  joint vertebral arch  
+MA_0001514|  joint vertebral body  
 MA_0001518|  joint articular surface  
 MA_0001519|  joint fibrous capsule  
 MA_0001520|  gastrointestinal system epithelium  
@@ -1524,29 +1524,29 @@ MA_0001531|  external anal sphincter  |  sphincter ani externus
 MA_0001532|  anal region smooth muscle  
 MA_0001533|  anococcygeus  
 MA_0001534|  internal anal sphincter  
-MA_0001535|  crypt of lieberkuhn  
+MA_0001535|  crypt lieberkuhn  
 MA_0001536|  intestine epithelium  
 MA_0001537|  intestine mucosa  
 MA_0001538|  intestine serosa  
 MA_0001539|  intestine smooth muscle  
-MA_0001540|  appendix  |  apex of cecum  
+MA_0001540|  appendix  |  apex cecum  
 MA_0001541|  ascending colon  
 MA_0001542|  descending colon  
 MA_0001543|  transverse colon  
-MA_0001544|  large intestine crypt of lieberkuhn  
+MA_0001544|  large intestine crypt lieberkuhn  
 MA_0001545|  large intestine epithelium  
 MA_0001546|  large intestine serosa  
 MA_0001547|  large intestine smooth muscle  
 MA_0001548|  large intestine smooth muscle circular layer  
 MA_0001549|  large intestine smooth muscle longitudinal layer  
-MA_0001550|  large intestine peyer's patch  
-MA_0001551|  brunner's gland  
-MA_0001552|  small intestine crypt of lieberkuhn  
+MA_0001550|  large intestine peyer patch  
+MA_0001551|  brunner gland  
+MA_0001552|  small intestine crypt lieberkuhn  
 MA_0001553|  small intestine epithelium  
 MA_0001554|  small intestine lamina propria  
 MA_0001555|  small intestine mesentery  
 MA_0001556|  mesoduodenum  
-MA_0001557|  small intestine peyer's patch  
+MA_0001557|  small intestine peyer patch  
 MA_0001558|  small intestine serosa  
 MA_0001559|  small intestine smooth muscle  
 MA_0001560|  small intestine smooth muscle circular layer  
@@ -1569,7 +1569,7 @@ MA_0001576|  gingival epithelium
 MA_0001577|  lip philtrum  
 MA_0001578|  lip skeletal muscle  
 MA_0001579|  lip skin  
-MA_0001580|  meckel's cartilage  
+MA_0001580|  meckel cartilage  
 MA_0001581|  palatal shelf  
 MA_0001582|  endocrine pancreas  
 MA_0001583|  primary palate  
@@ -1634,7 +1634,7 @@ MA_0001642|  liver left medial lobe
 MA_0001643|  liver papillary process  
 MA_0001644|  major calyx  
 MA_0001645|  minor calyx  
-MA_0001646|  papillary duct  |  duct of bellini  
+MA_0001646|  papillary duct  |  duct bellini  
 MA_0001647|  area cribosa  
 MA_0001648|  juxtamedullary cortex  
 MA_0001649|  outer renal cortex  
@@ -1647,11 +1647,11 @@ MA_0001655|  left kidney
 MA_0001657|  glomerulus  |  glomerular tuft  
 MA_0001658|  glomerular capillary endothelium  
 MA_0001659|  glomerular capillary basement membrane  
-MA_0001660|  glomerular capsule  |  bowman's capsule  
+MA_0001660|  glomerular capsule  |  bowman capsule  
 MA_0001661|  glomerular juxtacapillary capsular wall  
 MA_0001662|  glomerular outer capsular wall  
 MA_0001663|  juxtamedullary renal corpuscle  
-MA_0001664|  urinary space  |  bowman's space  
+MA_0001664|  urinary space  |  bowman space  
 MA_0001665|  renal convoluted tubule  
 MA_0001666|  distal convoluted tubule  |  second convoluted tubule  
 MA_0001667|  distal convoluted tubule convoluted part  
@@ -1662,11 +1662,11 @@ MA_0001671|  proximal convoluted tubule convoluted part
 MA_0001672|  proximal convoluted tubule straight part  
 MA_0001673|  distal convoluted tubule straight part  
 MA_0001674|  junctional tubule  |  connecting tubule  
-MA_0001675|  loop of henle  
-MA_0001676|  loop of henle ascending limb  
-MA_0001677|  loop of henle ascending limb thick segment  |  distal straight tubule  
-MA_0001678|  loop of henle ascending limb thin segment  
-MA_0001679|  loop of henle descending limb  
+MA_0001675|  loop henle  
+MA_0001676|  loop henle ascending limb  
+MA_0001677|  loop henle ascending limb thick segment  |  distal straight tubule  
+MA_0001678|  loop henle ascending limb thin segment  
+MA_0001679|  loop henle descending limb  
 MA_0001680|  renal tubule basement membrane  
 MA_0001681|  renal tubule epithelium  
 MA_0001682|  kidney blood vessel  |  renal blood vessel  
@@ -1747,8 +1747,8 @@ MA_0001756|  laryngeal extrinsic ligament
 MA_0001757|  laryngeal intrinsic ligament  
 MA_0001758|  larynx cartilage  
 MA_0001759|  arytenoid cartilage  
-MA_0001760|  apex of arytenoid  
-MA_0001761|  base of arytenoid  
+MA_0001760|  apex arytenoid  
+MA_0001761|  base arytenoid  
 MA_0001762|  cricoid cartilage  
 MA_0001763|  epiglottic cartilage  
 MA_0001764|  thyroid cartilage  
@@ -1903,8 +1903,8 @@ MA_0001912|  upper respiratory tract epithelium
 MA_0001913|  alveolar artery  
 MA_0001914|  suprarenal artery  |  adrenal artery  
 MA_0001915|  anterior cerebral artery  
-MA_0001916|  artery of lower lip  
-MA_0001917|  artery of upper lip  
+MA_0001916|  artery lower lip  
+MA_0001917|  artery upper lip  
 MA_0001918|  auricular artery  
 MA_0001919|  maxillary artery  
 MA_0001920|  basilar artery  
@@ -1928,7 +1928,7 @@ MA_0001938|  communicating artery
 MA_0001939|  costo cervical trunk  
 MA_0001940|  deferent duct artery  
 MA_0001941|  digital artery  
-MA_0001942|  dorsal artery of foot  
+MA_0001942|  dorsal artery foot  
 MA_0001943|  dorsal intercostal artery  
 MA_0001944|  dorsal metacarpal artery  
 MA_0001945|  dorsal nasal artery  
@@ -1941,8 +1941,8 @@ MA_0001951|  femoral artery
 MA_0001952|  medial femoral artery  
 MA_0001953|  forelimb digital arteries  
 MA_0001954|  forelimb common dorsal digital arteries  
-MA_0001955|  median dorsal digital artery for digit 01  
-MA_0001956|  lateral dorsal digital artery for digit 05  
+MA_0001955|  median dorsal digital artery digit 01  
+MA_0001956|  lateral dorsal digital artery digit 05  
 MA_0001957|  common palmar digital arteries  
 MA_0001958|  forelimb proper dorsal digital arteries  
 MA_0001959|  proper palmal digital arteries  
@@ -2008,8 +2008,8 @@ MA_0002020|  pial artery
 MA_0002021|  popliteal artery  
 MA_0002022|  posterior cerebral artery  
 MA_0002023|  posterior communicating artery  
-MA_0002024|  principal artery to forelimb  
-MA_0002025|  principal artery to hindlimb  
+MA_0002024|  principal artery forelimb  
+MA_0002025|  principal artery hindlimb  
 MA_0002026|  profunda brachii artery  
 MA_0002027|  profunda femoris artery  
 MA_0002028|  pudendal artery  
@@ -2092,7 +2092,7 @@ MA_0002105|  dorsal metatarsal vein
 MA_0002106|  dorsal nasal vein  
 MA_0002107|  dorsal penis vein  
 MA_0002108|  dorsal spinal vein  
-MA_0002109|  dorsal vena of penis  
+MA_0002109|  dorsal vena penis  
 MA_0002110|  dorsal venous arch  
 MA_0002111|  ductus venosus  
 MA_0002112|  duodenal vein  
@@ -2113,7 +2113,7 @@ MA_0002126|  proper palmal vein
 MA_0002127|  superficial palmal arch  
 MA_0002128|  gastric vein  
 MA_0002129|  gastroepiploic vein  
-MA_0002131|  great vein of heart  
+MA_0002131|  great vein heart  
 MA_0002132|  hepatic portal vein  
 MA_0002133|  hindlimb digital veins  
 MA_0002134|  common plantar vein  
@@ -2178,8 +2178,8 @@ MA_0002195|  inferior phrenic vein
 MA_0002196|  pial vein  
 MA_0002197|  popliteal vein  
 MA_0002198|  portal vein  
-MA_0002199|  principal vein of forelimb  
-MA_0002200|  principal vein of hindlimb  
+MA_0002199|  principal vein forelimb  
+MA_0002200|  principal vein hindlimb  
 MA_0002201|  proximal caudal femoral vein  
 MA_0002202|  pudendal vein  
 MA_0002203|  inferior external pudendal vein  
@@ -2231,11 +2231,11 @@ MA_0002248|  ulnar collateral vein
 MA_0002249|  umbilical vein  
 MA_0002250|  ureteric vein  
 MA_0002251|  vaginal vein  
-MA_0002252|  vein of clitoris  
-MA_0002253|  vein of lower lip  
-MA_0002254|  vein of trabecular bone  
-MA_0002255|  vein of upper lip  
-MA_0002256|  vein of vesicular gland  
+MA_0002252|  vein clitoris  
+MA_0002253|  vein lower lip  
+MA_0002254|  vein trabecular bone  
+MA_0002255|  vein upper lip  
+MA_0002256|  vein vesicular gland  
 MA_0002257|  venous vaginal plexus  
 MA_0002258|  ventral auricular vein  
 MA_0002259|  ventral intercostal vein  
@@ -2256,9 +2256,9 @@ MA_0002274|  cleidobrachial
 MA_0002275|  cleidocephalic  
 MA_0002276|  cleidooccipital  
 MA_0002277|  coccygeus  
-MA_0002278|  constrictor muscle of pharynx  
-MA_0002279|  constrictor muscle of pharynx inferior  
-MA_0002280|  constrictor muscle of pharynx superior  
+MA_0002278|  constrictor muscle pharynx  
+MA_0002279|  constrictor muscle pharynx inferior  
+MA_0002280|  constrictor muscle pharynx superior  
 MA_0002281|  constrictor vulvae  
 MA_0002282|  coracobrachial  
 MA_0002283|  cricoarytenoid  
@@ -2444,7 +2444,7 @@ MA_0002464|  labium
 MA_0002465|  vaginal hymen  
 MA_0002466|  perineum  
 MA_0002467|  periodontal ligament  |  periodontium  |  periodontal membrane  
-MA_0002468|  ear lobe  |  lobule of pinna  |  lobule of auricle  |  ear lobule  
+MA_0002468|  ear lobe  |  lobule pinna  |  lobule auricle  |  ear lobule  
 MA_0002469|  parasympathetic ganglion  
 MA_0002470|  submandibular ganglion  
 MA_0002471|  retina photoreceptor layer inner segment  
@@ -2531,7 +2531,7 @@ MA_0002551|  colostrum
 MA_0002552|  mammary gland milk  
 MA_0002553|  psoas muscle  
 MA_0002554|  popliteus  
-MA_0002555|  scaphoid  |  radial carpal bone  |  navicular of hand  
+MA_0002555|  scaphoid  |  radial carpal bone  |  navicular hand  
 MA_0002556|  lunate  |  semilunar  |  intermediate carpal bone  
 MA_0002557|  proximal carpal bone  
 MA_0002558|  distal carpal bone  
@@ -2552,12 +2552,12 @@ MA_0002572|  descending thoracic aorta
 MA_0002573|  axillary artery  
 MA_0002574|  anterior tibial artery  
 MA_0002575|  posterior tibial artery  
-MA_0002576|  atrioventricular bundle  |  his bundle  |  bundle of his  
+MA_0002576|  atrioventricular bundle  |  his bundle  |  bundle his  
 MA_0002577|  pre botzinger complex  |  pre botzinger respiratory control center  
 MA_0002578|  kidney arterial blood vessel  
 MA_0002579|  afferent arteriole  
-MA_0002580|  part of afferent arteriole forming juxtaglomerular complex  |  renin producing cells  
-MA_0002581|  rest of afferent arteriole  
+MA_0002580|  part afferent arteriole forming juxtaglomerular complex  |  renin producing cells  
+MA_0002581|  rest afferent arteriole  
 MA_0002582|  renal cortex artery  |  renal cortex arterial system  
 MA_0002583|  arcuate artery  
 MA_0002584|  interlobular artery  
@@ -2599,14 +2599,14 @@ MA_0002619|  renal medulla interstitium
 MA_0002620|  inner renal medulla interstitium  
 MA_0002621|  outer renal medulla interstitium  
 MA_0002622|  renal subcapsular mesenchyme  
-MA_0002623|  inner renal medulla loop of henle  
-MA_0002624|  loop of henle bend  
-MA_0002625|  loop of henle thin descending limb  
+MA_0002623|  inner renal medulla loop henle  
+MA_0002624|  loop henle bend  
+MA_0002625|  loop henle thin descending limb  
 MA_0002626|  outer medulla inner stripe  
-MA_0002627|  outer medulla inner stripe loop of henle  
+MA_0002627|  outer medulla inner stripe loop henle  
 MA_0002628|  distal straight tubule premacula segment  
 MA_0002629|  outer medulla outer stripe  
-MA_0002630|  outer medulla outer stripe loop of henle  
+MA_0002630|  outer medulla outer stripe loop henle  
 MA_0002631|  kidney pelvis smooth muscle  
 MA_0002632|  kidney pelvis urothelium  
 MA_0002633|  renal distal tubule  
@@ -2627,7 +2627,7 @@ MA_0002647|  membranous urethra
 MA_0002648|  urethra mesenchymal layer  
 MA_0002649|  urethra muscle  |  urethral muscle layer  
 MA_0002650|  urethral sphincter  
-MA_0002651|  rest of ureter  
+MA_0002651|  rest ureter  
 MA_0002652|  ureter adventitia  
 MA_0002653|  ureter lamina propria  
 MA_0002654|  ureter muscle layer  
@@ -2639,13 +2639,13 @@ MA_0002659|  bile duct extrahepatic part
 MA_0002660|  common hepatic duct  
 MA_0002661|  extrahepatic bile duct epithelium  
 MA_0002662|  intrahepatic bile duct epithelium  
-MA_0002663|  intrahepatic part of left hepatic duct  
-MA_0002664|  intrahepatic part of right hepatic duct  
-MA_0002665|  hilar part of hepatic duct  
-MA_0002666|  hilar part of left hepatic duct  
-MA_0002667|  hilar part of right hepatic duct  
+MA_0002663|  intrahepatic part left hepatic duct  
+MA_0002664|  intrahepatic part right hepatic duct  
+MA_0002665|  hilar part hepatic duct  
+MA_0002666|  hilar part left hepatic duct  
+MA_0002667|  hilar part right hepatic duct  
 MA_0002668|  interlobular bile duct  
-MA_0002669|  intralobular bile duct  |  canal of herring  |  canal of hering  
+MA_0002669|  intralobular bile duct  |  canal herring  |  canal hering  
 MA_0002670|  spleen hilum  
 MA_0002671|  splenic cord  
 MA_0002672|  spleen lymphoid follicle  |  spleen lymphoid nodule  
