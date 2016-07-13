@@ -23,7 +23,7 @@ chunked :: NFData a => Strategy [a]
 chunked = parListChunk 16000 rdeepseq
 
 
-findMatches :: Float -> Annotations -> Annotations -> [(Id, Id)]
+findMatches :: Double -> Annotations -> Annotations -> [(Id, Id)]
 findMatches cutoff one two = M.elems exact ++ best
   where
     exact = M.intersectionWith (\x y -> (fst x, fst y)) one two
@@ -33,7 +33,7 @@ findMatches cutoff one two = M.elems exact ++ best
 
 
 -- Use 3-gram similarity to find matches
-triGramMatch :: Float -> Annotations -> Annotations -> [(Id, Id)]
+triGramMatch :: Double -> Annotations -> Annotations -> [(Id, Id)]
 triGramMatch quality one two =
     map translate . greedyMatch . cutoff . matchList . variances $ similarities one two
   where
@@ -42,7 +42,7 @@ triGramMatch quality one two =
 
 
 -- Construct a matrix with similarity values between maps
-similarities :: Annotations -> Annotations -> UArray (Int, Int) Float
+similarities :: Annotations -> Annotations -> UArray (Int, Int) Double
 similarities one two = A.listArray ((0, 0), (M.size one - 1, M.size two - 1)) elements
   where
     elements = mapPairs bagSim (M.toAscList one) (M.toAscList two) `using` chunked
@@ -67,7 +67,7 @@ mapPairs f xs ys = [f x y | x <- xs, y <- ys]
 
 
 -- Similarity of two sets
-sim :: Ord a => Set a -> Set a -> Float
+sim :: Ord a => Set a -> Set a -> Double
 sim xs ys = size inter / size uni
   where
     (inter, uni) = unionIntersection xs ys
@@ -87,7 +87,7 @@ unionIntersection one two = unionIntersection' [] [] two (S.toList one)
 
 
 -- Calculate variances for each entry
-variances :: UArray (Int, Int) Float -> UArray (Int, Int) Float
+variances :: UArray (Int, Int) Double -> UArray (Int, Int) Double
 variances matrix = A.listArray (A.bounds matrix) $ map freq $ A.assocs matrix
   where
     freq ((i1, i2), v) = v - rowAvgs !! i1 - colAvgs !! i2 + avg
@@ -95,7 +95,7 @@ variances matrix = A.listArray (A.bounds matrix) $ map freq $ A.assocs matrix
 
 
 -- Calculate row, column and total average(s)
-averages :: UArray (Int, Int) Float -> ([Float], [Float], Float)
+averages :: UArray (Int, Int) Double -> ([Double], [Double], Double)
 averages m = (xAvgs, yAvgs, sum xAvgs / fromIntegral (xMax - xMin + 1))
   where
     ((xMin, yMin), (xMax, yMax)) = A.bounds m
@@ -106,7 +106,7 @@ averages m = (xAvgs, yAvgs, sum xAvgs / fromIntegral (xMax - xMin + 1))
 
 
 -- Convert matrix to sorted list of possible matchings
-matchList :: UArray (Int, Int) Float -> [(Float, Int, Int)]
+matchList :: UArray (Int, Int) Double -> [(Double, Int, Int)]
 matchList m = sortBy (flip compare) $ map (\((one, two), v) -> (v, one, two)) $ A.assocs m
 
 

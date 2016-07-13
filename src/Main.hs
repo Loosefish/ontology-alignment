@@ -22,7 +22,7 @@ main = do
         _ -> putStrLn "match <path to mouse.owl> <path to human.owl>"
 
 
-run :: Float -> String -> String -> IO ()
+run :: Double -> String -> String -> IO ()
 run cutoff mouseFile humanFile = printMatches =<< findMatches cutoff <$> mouseAnnos <*> humanAnnos
   where
     mouseAnnos = parseFile mouseFile
